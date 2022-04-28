@@ -18,13 +18,21 @@ class Snake:
 
     def create_snake(self):
         for position in STARTING_POSITION: #Por cada posicion en position se va a ejecutar el recorrido de positions
-            snake_segment = Turtle("square")
-            snake_segment.color("turquoise")
-            snake_segment.penup()
-            snake_segment.goto(position)
-            self.segments.append(snake_segment)
+            self.add_segment(position)
 
+
+    def add_segment(self, position):
+        snake_segment = Turtle("square")
+        snake_segment.color("turquoise")
+        snake_segment.penup()
+        snake_segment.goto(position)
+        self.segments.append(snake_segment)
+
+
+    def extend(self):
+        self.add_segment(self.segments[-1].position())
     
+
     def move(self):
         #Movimiento de la serpiente 
         for seg_num in range(len(self.segments) - 1, 0, - 1): #Quiero que me almacene todas las nuevas posiciones
