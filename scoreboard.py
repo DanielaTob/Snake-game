@@ -11,7 +11,7 @@ class Scoreboard(Turtle):
         super().__init__()
         self.score = 0 #Atributo = Caracteristicas del cuerpo de una persona Metodo = funciones = acciones de una persona
         self.goto(0, 270)
-        self.color("white")
+        self.color("#C85853")
         self.update_score()
         self.hideturtle()
     

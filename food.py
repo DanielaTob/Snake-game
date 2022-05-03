@@ -8,10 +8,10 @@ class Food(Turtle):
     
     def __init__(self):
         super().__init__() #Herede de turtle y coja todo lo disponible.
-        self.shape("circle")
+        self.shape("turtle")
         self.penup()
         self.shapesize(stretch_len=0.5, stretch_wid=0.5)
-        self.color("green")
+        self.color("#FFEED9")
         self.refresh()
 
     def refresh(self):
