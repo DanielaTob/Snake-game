@@ -2,11 +2,12 @@
 
 ### This game was build complete it in python using the library Turtle which provide cool methods, so I hope you enjoy playing a little bit
 
+![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
+
+
 # 🐍 Python learning path
 
 * [Notion](https://www.notion.so/RUTA-DE-APRENDIZAJE-PYTHON-DANIELA-e6a0a4cd51044306a3a4de94c614c9a9)
-
-![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
 
 
 # 🐍 Installation
